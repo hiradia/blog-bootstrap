@@ -1,0 +1,51 @@
+.article-content img {
+  margin: 1.5rem 0;
+}
+
+/* Hover effect untuk cards */
+.hover-effect:hover {
+  transform: translateY(-5px);
+  transition: transform 0.2s ease;
+}
+
+/* Konten artikel spacing */
+.article-content h2 {
+  margin-top: 2.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #dee2e6;
+}
+
+/* Code blocks */
+pre {
+  background: #f8f9fa;
+  padding: 1.25rem;
+  border-radius: 0.4rem;
+  overflow-x: auto;
+  border: 1px solid #dee2e6;
+}
+
+/* Footer */
+footer h5 {
+  color: #fff !important;
+  margin-bottom: 1.25rem;
+}
+
+footer a {
+  color: #adb5bd !important; 
+  transition: color 0.2s ease;
+}
+
+footer a:hover {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+footer .text-muted {
+  color: #6c757d !important;
+}
+
+footer hr {
+  background-color: #495057 !important;
+  height: 1px;
+  opacity: 1;
+}
